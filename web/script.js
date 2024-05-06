@@ -6,7 +6,7 @@ const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function fetchPeopleData() {
-  const container = document.getElementById('peopleData');
+  const container = document.getElementById('results');
   container.innerHTML = ''; // Clear previous content
   
   try {
@@ -58,4 +58,4 @@ async function fetchPeopleData() {
   }
 }
 
-document.getElementById('infoSub').addEventListener('click', fetchPeopleData);
+document.getElementById('submit-info').addEventListener('click', fetchPeopleData);
