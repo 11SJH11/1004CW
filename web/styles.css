@@ -76,7 +76,7 @@ main {
   border-radius: 5px;
   padding: 10px;
   margin-top: 20px;
-  height: 450px;
+  height: 400px;
   background-color: #ffffff;
   display: flex;
   overflow: auto;
@@ -89,6 +89,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+  height: 100px;
   order: 3; 
   grid-column: 1 / span 2;
 }
