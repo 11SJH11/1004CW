@@ -67,7 +67,7 @@ main {
 }
 
 .content {
-  flex: 4; /* Allow content to grow */
+  flex: 4; 
   padding: 10px;
 }
 
@@ -80,6 +80,8 @@ main {
   background-color: #ffffff;
   display: flex;
   overflow: auto;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
 }
 
 footer {
