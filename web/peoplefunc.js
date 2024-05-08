@@ -6,6 +6,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 
 async function fetchPeopleData() {
+  document.getElementById("message").innerHTML = "";
   const container = document.getElementById('results');
   container.innerHTML = '';
 
