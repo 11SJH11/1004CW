@@ -1,2 +1,20 @@
 {
-  "type": "module"}
+  "name": "1004cw",
+  "version": "1.0.0",
+  "description": "1004\u0000CW\u0000 \u0000 \u0000",
+  "main": "coursework-sample.spec.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
