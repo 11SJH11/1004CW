@@ -109,7 +109,7 @@ footer {
     margin-bottom: 10px; 
   }
 
-  .container {
+  #container {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-areas: 
@@ -130,5 +130,4 @@ footer {
     grid-row:2;
   }
 }
-
 
